@@ -1,9 +1,9 @@
 import random
 
 char = "1234567890-=_+!@#$%^&*()±§qwertyuiop[]asdfghjkl;`zxcvbnm,.QWERTYUIOPASDFGHJKLZXCVBNM"
-print("     Программа генератора паролей")
-number = int(input("Количесвто паролей: "))
-dlin = int(input('Длинна стороки: '))
+print("     Password generator")
+number = int(input("Number of passwords: "))
+dlin = int(input('How long is the password needed: '))
 for i in range(number):
     password = ''
 
